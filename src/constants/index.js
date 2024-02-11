@@ -19,12 +19,12 @@ import {
     starbucks,
     shopify,
     carrent,
-    jobit,
     tripguide,
     threejs,
     agumentik,
     amplework,
     chetu,
+    uyniteAdmin
   } from "../assets";
   
   export const navLinks = [
@@ -182,15 +182,15 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "I've never met a web developer who truly cares about their clients' success like Nehal does.",
+      name: "Imran",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      // image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Nehal optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -200,16 +200,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "World Map",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, and provide some basic information related to that country.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react-map-gl",
           color: "green-text-gradient",
         },
         {
@@ -218,12 +218,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/nshams901/world-map",
     },
     {
-      name: "Job IT",
+      name: "Uynite Admin",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application to manage the uynite web application. Admin able to review the content posted and reported by the users.",
       tags: [
         {
           name: "react",
@@ -238,8 +238,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: uyniteAdmin,
+      source_code_link: "https://github.com/nshams901/uynite-admin",
     },
     {
       name: "Trip Guide",

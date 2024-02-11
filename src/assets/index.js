@@ -30,7 +30,7 @@ import amplework from './company/amplework.svg'
 import chetu from './company/chetu.png'
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import uyniteAdmin from "./uynite-admin.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -64,5 +64,6 @@ export {
   tripguide,
   agumentik,
   amplework,
-  chetu
+  chetu,
+  uyniteAdmin
 };
